@@ -1,0 +1,11 @@
+certificates = input("How many certificates do you have? ")
+print(certificates)
+print(type(certificates))
+print("After Coversion:")
+certificates = int(certificates)
+print(type(certificates))
+"""  We can also perform the step of conversion in the first step as well where we are the user for input directly.
+"""
+print("This is in one step.")
+certificates = int(input("How many certificates do you have? "))
+print(type(certificates))
