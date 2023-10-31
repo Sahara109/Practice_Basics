@@ -1,0 +1,9 @@
+"""
+Python always returns the user input as string and it
+is not possiblr to get user input in int/float
+for that you will have to later convert it.
+"""
+Age = input("What is your age?: ")
+print(type(Age))
+Age = int(Age)#converting the string user input to int
+print(type(Age))
